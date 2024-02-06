@@ -1,0 +1,234 @@
+body {
+    direction: ltr;
+    text-align: left;
+}
+
+nav {
+    direction: rtl;
+}
+
+nav ul {
+    direction: ltr;
+}
+
+nav a {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+nav .lang svg {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+nav .lang .slide-toggle {
+    left: 2px;
+    padding: 10px 0px;
+    width: 101px;
+}
+
+.slider .search .input-group input {
+    padding: 0 90px 0 52px;
+}
+
+.slider .search .input-group::after {
+    left: 55px;
+    right: auto;
+}
+
+.slider .search .input-group button {
+    right: 2%;
+    left: auto;
+}
+
+.slider .search .input-group svg {
+    left: 4%;
+    right: auto;
+}
+
+@media (max-width: 768px) {
+    .slider .search .input-group input {
+        padding: 0 70px 0 40px;
+    }
+    .slider .search .input-group::after {
+        left: 42px;
+        right: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider .search .input-group::after {
+        left: 37px;
+        right: auto;
+    }
+    .slider .search .input-group svg {
+        left: 16px;
+        right: auto;
+    }
+}
+
+.qr .owl-item a {
+    direction: rtl;
+    padding: 11px 5px 11px 3px;
+}
+
+.qr .owl-item a .circle {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.footer li svg,
+.contact li svg {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.footer .center img,
+.contact .info img {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.footer .left .bg {
+    margin-left: -45px;
+    margin-right: 0;
+}
+
+.footer .left .app {
+    left: 58px;
+    right: auto;
+}
+@media (max-width: 1200px) {
+    .footer .left .app {
+        left: 35px;
+        right: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer .left .app {
+        left: 60px;
+        right: auto;
+    }
+}
+
+@media (max-width: 567px) {
+    .footer .left .app {
+        left: 70px;
+        right: auto;
+    }
+    .footer .left .bg {
+        margin-left: -35px;
+        margin-right: 0;
+    }
+}
+
+.copy .row div:first-child {
+    text-align: left !important;
+}
+.copy .row div:last-child {
+    text-align: right !important;
+}
+
+@media (max-width: 992px) {
+    .copy .row div:first-child {
+        text-align: center !important;
+    }
+    .copy .row div:last-child {
+        text-align: center !important;
+    }
+}
+
+.about h3 {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+@media (max-width: 576px) {
+    .about h3 {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+}
+
+.contact form #num {
+    direction: ltr;
+}
+
+.contact form .submit {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.banar a svg {
+    margin-right: 7px;
+    margin-left: 0;
+}
+
+.create input {
+    padding: 9px 5px 9px 15px;
+}
+
+.create .links {
+    text-align: right;
+}
+
+.create .links .submit {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.banar .log-out svg {
+    margin-left: 5px;
+    margin-right: 0 ;
+}
+
+.account h3 {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.account .input-group input {
+    padding: 3px 5px 3px 60px;
+}
+
+.account .input-group button {
+    left: 0;
+    right: auto;
+}
+
+.account .box ul li span {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.account .mood {
+    direction: rtl;
+}
+
+.account .mood div {
+    text-align: left;
+}
+
+.account .mood .service {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.account .col-3 {
+    text-align: right !important;
+}
+
+.make_request form .row .input-box .img-box {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.make_request input {
+    padding: 10px 5px 10px 15px;
+}
+
+.make_request .download .img-box {
+    margin-right: 20px;
+    margin-left: 0;
+}
